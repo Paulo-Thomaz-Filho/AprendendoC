@@ -10,7 +10,6 @@ int main() {
     scanf("%i", &qtdDias);
    
     printf("Digite o tipo da sua suite? (s - d - t): ");
-    // O espaço antes do %c limpa o 'Enter' (\n) do buffer de entrada
     scanf(" %c", &tipo);
 
     switch (tipo) {
