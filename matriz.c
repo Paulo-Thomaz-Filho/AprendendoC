@@ -7,7 +7,7 @@ int main()
 
     for (int i = 0; i < 3; i ++) {
         for (int j = 0; j < 4; j ++) {
-            printf("Digite a nota do %dº aluno: ", i+1);
+            printf("Digite o valor da %dª venda do funcionario %d: ", j+1, i+1);
             scanf("%d", &nota[i][j]);
         }
     }                           
